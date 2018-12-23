@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<info>
+	<id>files_sharing_mailnotification</id>
+	<name>Mail notification for file shares</name>
+	<licence>AGPL</licence>
+	<author>Julius Härtl</author>
+	<description>This application adds notifications via email for files shared to users or groups</description>
+	<version>1.0.0</version>
+	<types>
+		<filesystem/>
+	</types>
+	<category>files</category>
+	<website>https://github.com/juliushaertl/files_sharing_mailnotification</website>
+	<bugs>https://github.com/juliushaertl/files_sharing_mailnotification/issues</bugs>
+	<repository type="git">https://github.com/juliushaertl/files_sharing_mailnotification.git</repository>
+	<namespace>FilesSharingMailNotification</namespace>
+	<dependencies>
+		<nextcloud min-version="16" max-version="16" />
+	</dependencies>
+</info>
